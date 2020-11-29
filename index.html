@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Length Converter</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <h1 id="title">Length Converter</h1>
+
+        <p id="desc">Please input the amount you would like to convert</p>
+
+        <label>Centimeters (cm):</label>
+        <input type="number" id="inputCentimeters" placeholder="Centimeters"
+        oninput="converterForCentimeters(this.value)"
+        onchange="converterForCentimeters(this.value)">
+        
+        <br><br>
+
+        <label>Meters (m):</label>
+        <input type="number" id="inputMeters" placeholder="Meters"
+        oninput="converterForMeters(this.value)"
+        onchange="converterForMeters(this.value)">
+
+        <br><br>
+
+        <label>Millimeters (mm):</label>
+        <input type="number" id="inputMillimeters" placeholder="Millimeters"
+        oninput="converterForMillimeters(this.value)"
+        onchange="converterForMillimeters(this.value)">
+
+        <br><br>
+
+        <label>Kilometers (km)</label>
+        <input type="number" id="inputKilometers" placeholder="Kilometers"
+        oninput="converterForKilometers(this.value)"
+        onchange="converterForKilometers(this.value)">
+
+        <br><br>
+
+        <label>Miles (m):</label>
+        <input type="number" id="inputMiles" placeholder="Miles"
+        oninput="converterForMiles(this.value)"
+        onchange="converterForMiles(this.value)">
+
+        <br><br>
+
+        <label>Inches:</label>
+        <input type="number" id="inputInches" placeholder="Inches"
+        oninput="converterForInches(this.value)"
+        onchange="converterForInches(this.value)">
+
+        <br><br>
+
+        <label>Feet (ft):</label>
+        <input type="number" id="inputFeet" placeholder="Feet"
+        oninput="converterForFeet(this.value)"
+        onchange="converterForFeet(this.value)">  
+
+    </div>
+
+    
+    
+</body>
+</html>
